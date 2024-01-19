@@ -1,0 +1,60 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-1{
+    border: 1px solid gray;
+    text-align: center;
+    background: rgb(221, 92, 92);
+    padding: 20px 0 20PX 0;
+}
+.container-2{
+    padding: 20px 0 20px 0;
+    border: 1px solid black;
+    display: flex; 
+    justify-content: space-between;
+}
+
+p{
+    color: black;
+    
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    
+}
+
+ul a{
+    color: #B82330;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: large;
+    font-weight: bold;
+}
+
+select{
+    border: none;
+    color: #B82330;
+    
+}
+
+.icon-select{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    
+}
+.icon-select select option , .icon-select div i{
+    color: #B82330;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+}

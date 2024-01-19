@@ -1,0 +1,36 @@
+h1{
+    color: rgb(143, 54, 54);
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: gray;
+}
+.pere{
+   
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: gray;
+    font-size: 18px;
+}
+.peac{
+    width: 250px;
+    height: 250px;
+}
+.disc{
+    border: 1px solid gray;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    background-color: gray;
+    color: white;
+}
+.peact{
+    width: 250px;
+    height: 250px;
+}
