@@ -58,3 +58,26 @@ select{
     width: 50px;
     height: 50px;
 }
+
+.container-3{
+    text-align: center;
+    color: #B82330;
+    margin: 30px 0 30px 0;
+    font-size: large;
+}
+
+.container-4{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+img{
+    width: 280px;
+
+}
+
+i{
+    color:#E5A0AF ;
+}
