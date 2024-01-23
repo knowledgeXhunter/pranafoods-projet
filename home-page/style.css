@@ -1,59 +1,183 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+/* ----------------------------------------------------------------------------------------------------------------------------- */
 .container-1{
-    border: 1px solid gray;
-    text-align: center;
-    background: rgb(221, 92, 92);
-    padding: 20px 0 20PX 0;
+    background: #FFBE9F;
+    height: 45px;
 }
+.container-1 p {
+    text-align: center;
+    color: #54565A;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 13px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------- */
 .container-2{
-    padding: 20px 0 20px 0;
-    border: 1px solid black;
+    border: 2px solid #DFE6DE;
     display: flex; 
     justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 90px;
+    width: 100%;
+   
 }
 
-p{
-    color: black;
-    
-}
-
-ul{
+.container-2 ul{
     display: flex;
-    list-style: none;
-    gap: 3rem;
-    
+    gap: 1rem;
+    list-style: none; 
 }
 
-ul a{
+.container-2 ul a{
     color: #B82330;
     text-decoration: none;
     margin-left: 30px;
-    font-size: large;
+    font-size: 16px;
     font-weight: bold;
 }
 
-select{
-    border: none;
-    color: #B82330;
-    
+.container-2 .logo {
+    display: flex;
+    justify-content:center;
+    width: 5rem;
+    height: 4rem;
+    position: relative;
+    right: 65px;
+}
+.container-2 img{
+    width: 9em;
+    height: 4em;
 }
 
-.icon-select{
+.container-2 .icon-select{
     display: flex;
     justify-content: flex-end;
     gap: 2rem;
     
 }
-.icon-select select option , .icon-select div i{
+.container-2 .icon{
+    display: flex;
+    gap: 2rem;
     color: #B82330;
+    
 }
-.logo{
+
+.container-2 .canada{
+    border: none;
+    color: #B82330;
+
+    
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+.container-3 {
+    background-image: url(image/BANNIERE.webp);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    
+}
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+.container-4{
+    width: 100%;
+    height: 12rem;
     display: flex;
     justify-content: center;
-    width: 50px;
-    height: 50px;
+    align-items: center;
+}
+.container-4 h1{
+    color: #B82330;
+    font-size: x-large;
+}
+/* -------------------------------------------------------------------------------------------------------- */
+.container-5{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container-5 .box{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.container-5 .box1{
+    display: flex;
+    flex-direction: column;
+    
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+h4{
+    align-items: center;
+}
+span{
+    display: flex;
+    justify-content: center;
+}
+.textbox{
+    display: flex;
+    justify-content: center;
+    gap: 1em;   
+}
+/* ----------------------------------------------------------------------------------------------- */
+.container-6{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*----------------------------------------------------------------------------------------------------*/
+.container-7{
+    width: 100%;
+    height: 80vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.title-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1rem;
+    align-items: center;
+    background-image: url(image/a.webp);
+    background-size: cover;
+    width: 30%;
+    height: 80vh;
+}
+.title-button2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1rem;
+    align-items: center;
+    background-image: url(image/b.webp);
+    background-size: cover;
+    width: 30%;
+    height: 80vh;
+}
+.title-button3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1rem;
+    align-items: center;
+    background-image: url(image/c.webp);
+    background-size: cover;
+    width: 30%;
+    height: 80vh;
+}
+button{
+    margin-bottom: 20px;
 }
