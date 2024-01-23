@@ -7,7 +7,7 @@
 .container-1{
     border: 1px solid gray;
     text-align: center;
-    background: rgb(221, 92, 92);
+    background:#FFBE9F;
     padding: 20px 0 20PX 0;
 }
 .container-2{
@@ -80,4 +80,59 @@ img{
 
 i{
     color:#E5A0AF ;
+}
+
+/* Pagination links */
+.pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+
+  .pagination1{
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  /* Style the active/current link */
+  .pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+  .viewed{
+    text-align: center;
+    margin-top: 100px;
+    color: #B82330;
+  }
+
+  .viewed-img{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+
+  .footer-container{
+    display: flex;
+    gap: 5rem;
+    margin-top: 50px;
+    justify-content: space-evenly;
+  }
+
+  .list{
+    display: flex;
+    gap: 1rem;
+  }
+
+  li{
+    list-style: none;
+  }
+
+ol a{
+    color: #B82330;
+    text-decoration: none;
 }
