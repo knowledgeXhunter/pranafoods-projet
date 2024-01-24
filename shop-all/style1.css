@@ -116,11 +116,19 @@ i{
     margin-top: 50px;
   }
 
+  footer{
+    background: #FFD8C5;
+    height: 400px;
+  }
+
   .footer-container{
     display: flex;
     gap: 5rem;
     margin-top: 50px;
     justify-content: space-evenly;
+  }
+  .footer1, .footer2, .footer3{
+    margin-top: 50px;
   }
 
   .list{
