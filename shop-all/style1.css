@@ -50,7 +50,7 @@ select{
     
 }
 .icon-select select option , .icon-select div i{
-    color: #B82330;
+    color:#BC2E3B;
 }
 .logo{
     display: flex;
@@ -79,7 +79,7 @@ img{
 }
 
 i{
-    color:#E5A0AF ;
+    color:#BC2E3B;
 }
 
 /* Pagination links */
@@ -129,6 +129,40 @@ i{
   }
   .footer1, .footer2, .footer3{
     margin-top: 50px;
+  }
+  .footer2 h2{
+    margin:  0 20px 0;
+  }
+  .list{
+    margin: 20px 0 20px 0;
+  }
+
+  .footer3 input{
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .footer3 button{
+    margin: 20px 0 20px 0;
+    background-color: #53555A;
+    padding: 10px;
+    width: 100px;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .footer3 p{
+    margin: 20px 0 20px 0;
+  }
+
+  .footer1 p{
+    margin: 20px 0 20px 0;
+  }
+
+  .footer1 img{
+    width: 100px;
+    height: 50px;
+    margin: 20px 0 20px 0;
   }
 
   .list{
